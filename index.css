@@ -115,13 +115,35 @@ nav {
 }
 
 /* Main Section */
-.intro {
+.title {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.title h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-2 {
+    width: 100%;
+    text-align: center;
     margin-top: 10px;
     margin-left: 10px;
-    padding: 15px;
+    box-sizing: border-box;
     background-color: #C7EFCF;
     border: 1px solid #C7EFCF;
     border-radius: 15px;
+}
+
+.title-2 h2 {
+    background-color: #C7EFCF;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: #C7EFCF;
 }
 
 .intro * {
@@ -129,12 +151,7 @@ nav {
     font-family: 'roboto', sans-serif;
 }
 
-.intro h1 {
+.intro h2 {
     justify-content: center;
-    color: #32908F;
-    margin-bottom: 5px;
 }
 
-.intro p {
-    display: block;
-}
