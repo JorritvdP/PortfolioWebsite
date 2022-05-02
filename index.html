@@ -14,7 +14,12 @@
       <nav>
         <ul class="navbar" role="presentation">
           <li><a href="#">About me | </a></li>
-          <li><a href="#">Projects | </a></li>
+          <li onclick="click()"><a href="#">Projects | </a></li>
+          <div id="dropdown">
+            <a href="#">Mixed Messages</a>
+            <a href="#">Movimiento del Norte</a>
+            <a href="#">Another Project</a>
+          </div>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -41,11 +46,13 @@
 
       <div class="projects">
         <h2>Projects</h2>
+        <div class="list">
         <ul class="projectlist">
           <li><a href="">Mixed Messages</a></li>
           <li><a href="">Movimiento del Norte</a></li>
           <li><a href="">Another project</a></li>
         </ul>
+        </div>
       </div>
 
         <div class="skills">
@@ -64,6 +71,17 @@
 
     <footer>
       <h3>contact</h3>
+      <form action="">
+        <br>
+        <label for="name" required>Name: </label>
+        <input type="text" id="name" name="name" placeholder="Firstname Lastname">
+        <br>
+        <label for="email" required>Email: </label>
+        <input type="text" id="email" name="email" placeholder="example@mailaddress.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <br>
+        <label for="message" required>Message: </label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </form>
 
     </footer>
 </body>

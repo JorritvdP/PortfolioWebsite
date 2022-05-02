@@ -98,6 +98,7 @@ nav {
 .navbar {
     list-style: none;
     align-items: center;
+    position: relative;
 }
 
 .navbar li {
@@ -114,6 +115,18 @@ nav {
     font-size: larger;
 }
 
+#dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    overflow: auto;
+}
+
+.show {
+    display: block;
+}
+
 /* Main Section */
 .title {
     width: 100%;
@@ -128,16 +141,19 @@ nav {
 .title-2 {
     width: 100%;
     text-align: center;
+    align-items: center;
     margin-top: 10px;
     margin-left: 10px;
     box-sizing: border-box;
     background-color: #C7EFCF;
-    border: 1px solid #C7EFCF;
+    border: 1px none;
     border-radius: 15px;
 }
 
 .title-2 h2 {
     background-color: #C7EFCF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
 }
 
 .intro {
@@ -151,7 +167,16 @@ nav {
     font-family: 'roboto', sans-serif;
 }
 
-.intro h2 {
-    justify-content: center;
+
+.intro p {
+    width: 50%;
+}
+
+.intro img {
+    margin-right: 20px;
+    padding-bottom: 10px;
+    align-self: center;
+    border: 1px none;
+    border-radius: 50px;
 }
 
