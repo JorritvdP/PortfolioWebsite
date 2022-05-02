@@ -116,12 +116,12 @@ nav {
 
 /* Main Section */
 .intro {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 15px;
+    margin: 10px 50px;
+    padding: 15px 200px;
     background-color: #C7EFCF;
     border: 1px solid #C7EFCF;
     border-radius: 15px;
+    text-align: center;
 }
 
 .intro * {
@@ -131,10 +131,15 @@ nav {
 
 .intro h1 {
     justify-content: center;
+    align-items: center;
     color: #32908F;
     margin-bottom: 5px;
 }
 
 .intro p {
     display: block;
+}
+
+.banner img {
+    width: 100%;
 }
