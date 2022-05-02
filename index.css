@@ -115,9 +115,17 @@ nav {
 }
 
 /* Main Section */
+
+/*banner*/ 
+.banner img {
+    width: 100%;
+}
+
+/*Intro*/
+
 .intro {
     margin: 10px 50px;
-    padding: 15px 200px;
+    padding: 15px 250px;
     background-color: #C7EFCF;
     border: 1px solid #C7EFCF;
     border-radius: 15px;
@@ -140,6 +148,20 @@ nav {
     display: block;
 }
 
-.banner img {
-    width: 100%;
+/*Projects Section*/
+
+.projects {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 15px 250px;
+    background-color: #C7EFCF;
+    border: 1px solid #C7EFCF;
+    border-radius: 15px;
 }
+
+.projects * {
+    background-color: #C7EFCF;
+    font-family: 'roboto', sans-serif;
+    list-style: none;
+}
+
