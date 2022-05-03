@@ -67,18 +67,16 @@
  margin: 0;
 }
 
-#logo {
-    height: 100px;
-}
-
 header {
     display: flex;
     align-items: center;
     position: sticky;
     background-color: #4DBB53;
+    height: 75px;
 }
-header h2 {
-    margin-left: 20px;
+header h1 {
+    width: 100%;
+    margin-left: 10px;
     padding-right: 30px;
     display: inline;
 }
@@ -115,13 +113,21 @@ nav {
 }
 
 /* Main Section */
+
+/*banner*/ 
+.banner img {
+    width: 100%;
+}
+
+/*Intro*/
+
 .intro {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 15px;
+    margin: 10px 50px;
+    padding: 15px 250px;
     background-color: #C7EFCF;
     border: 1px solid #C7EFCF;
     border-radius: 15px;
+    text-align: center;
 }
 
 .intro * {
@@ -129,12 +135,70 @@ nav {
     font-family: 'roboto', sans-serif;
 }
 
-.intro h1 {
+h2 {
     justify-content: center;
+    align-items: center;
     color: #32908F;
+    padding: 10px;
     margin-bottom: 5px;
+    font-size: 26px;
 }
 
 .intro p {
     display: block;
+}
+
+/*Projects Section*/
+
+.projects {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 15px 250px;
+    background-color: #C7EFCF;
+    border: 1px solid #C7EFCF;
+    border-radius: 15px;
+}
+
+.projects * {
+    background-color: #C7EFCF;
+    font-family: 'roboto', sans-serif;
+    list-style: none;
+}
+
+.projects li {
+    padding: 3px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects a:hover {
+    color: red;
+    font-size: 19px;
+}
+
+/*Skills Section*/
+.skills {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 15px 250px;
+    background-color: #C7EFCF;
+    border: 1px solid #C7EFCF;
+    border-radius: 15px;
+}
+
+.skills * {
+    background-color: #C7EFCF;
+    font-family: 'roboto', sans-serif;
+    list-style: none;
+}
+
+.skills li {
+    width: 100%;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 25px;
+    justify-content: space-around;
 }
