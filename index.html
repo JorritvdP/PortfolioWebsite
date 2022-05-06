@@ -21,8 +21,19 @@
     </header>
 
     <main>
-      <div class="banner">
-        <img src="./mmeridiano2020-1525.jpg" alt="Running close to tree el Hierro" id="me">
+      <div class="slidercontainer">
+        <div class="showSlide">
+          <img src="./mmeridiano2020-1525adp.jpg" alt="Running close to tree el Hierro" id="me">
+        </div>
+        <div class="showSlide">
+          <img src="./Grupeto pedaleando en la carretera en el bosque.jpg" alt="Cyclist riding in woods">
+        </div>
+        <div class="showSlide">
+          <img src="./Jorrit corriendo en el Maratón del Meridiano.jpg" alt="Running on volcano">
+        </div>
+
+        <a class="left" onclick="nextSlide(-1)">❮</a>
+        <a class="right" onclick="nextSlide(1)">❯</a>
       </div>
 
       <div class="intro" id="about">
@@ -79,5 +90,6 @@
 
     </footer>
     <script src="./links.js"></script>
+    <script src="./slider.js"></script>
 </body>
 </html>
