@@ -297,3 +297,11 @@ footer h3 {
 footer form {
     background-color: #C7EFCF;
 }
+
+#whatsapp {
+    display: none;
+}
+
+.contactOptions {
+    list-style: none;
+}
