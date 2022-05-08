@@ -140,7 +140,7 @@ nav {
     margin-top: -22px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
 }
@@ -217,6 +217,7 @@ h2 {
 
 /*Skills Section*/
 .skills {
+    max-width: 1000px;
     text-align: center;
     margin: 10px 50px;
     padding: 15px 250px;
@@ -231,12 +232,21 @@ h2 {
     list-style: none;
 }
 
+.skills ul {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
 .skills li {
     width: 100%;
     display: inline;
     text-transform: uppercase;
     font-size: 25px;
-    justify-content: space-around;
+}
+
+.skills img {
+    height: 64px;
 }
 
 /*Footer Section*/
