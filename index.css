@@ -114,10 +114,70 @@ nav {
 
 /* Main Section */
 
-/*banner*/ 
-.banner img {
+/*Slider Section*/ 
+.showSlide {
+    display: none;
+    text-align: center;
+}
+
+.showslide img {
     width: 100%;
 }
+
+.sliderContainer {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    
+}
+
+.left, .right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.left:hover, .right:hover {  
+    background-color: rgba(115, 115, 115, 0.8);  
+}  
+
+ /* Fading animation */  
+ .fade {  
+    -webkit-animation-name: fade;  
+    -webkit-animation-duration: 1.5s;  
+    animation-name: fade;  
+    animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+
+@keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
 
 /*Intro*/
 
@@ -180,6 +240,7 @@ h2 {
 }
 
 /*Skills Section*/
+/*Skills Section*/
 .skills {
     text-align: center;
     margin: 10px 50px;
@@ -195,10 +256,44 @@ h2 {
     list-style: none;
 }
 
+.skills ul {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
 .skills li {
     width: 100%;
     display: inline;
     text-transform: uppercase;
     font-size: 25px;
-    justify-content: space-around;
+}
+
+.skills img {
+    height: 64px;
+}
+
+/*Footer Section*/
+
+footer {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 15px 250px;
+    background-color: #C7EFCF;
+    border: 1px solid #C7EFCF;
+    border-radius: 15px;
+}
+
+footer h3 {
+    justify-content: center;
+    background-color: #C7EFCF;
+    align-items: center;
+    color: #32908F;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+footer form {
+    background-color: #C7EFCF;
 }

@@ -21,8 +21,18 @@
     </header>
 
     <main>
-      <div class="banner">
-        <img src="./mmeridiano2020-1525.jpg" alt="Running close to tree el Hierro" id="me">
+      <div class="slidercontainer">
+        <div class="showSlide fade">
+          <img src="./mmeridiano2020-1526 - kopie.jpg" alt="Running close to tree el Hierro" id="me">
+        </div>
+        <div class="showSlide fade">
+          <img src="./Grupeto pedaleando en la carretera en el bosque.jpg" alt="Cyclist riding in woods">
+        </div>
+        <div class="showSlide fade">
+          <img src="./mmeridiano2020-12564 - kopie.jpg" alt="Running on volcano">
+        </div>
+        <a class="left" onclick="nextSlide(-1)">❮</a>
+        <a class="right" onclick="nextSlide(1)">❯</a>
       </div>
 
       <div class="intro" id="about">
@@ -45,17 +55,17 @@
         <div class="skills">
           <h2>Skills</h2>
           <ul class="skillList">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Git</li>
-            <li>Github</li>
+            <li><img src="./HTML5_Logo_128.png" alt="HTML 5 logo"></li>
+            <li><img src="./CSS3_logo.svg.png" alt=""></li>
+            <li><img src="./Unofficial_JavaScript_logo_2.svg.png" alt=""></li>
+            <li><img src="./git_original_wordmark_logo_icon_146510.png" alt=""></li>
+            <li><img src="./github.png" alt=""></li>
           </ul>
         </div>
     </main>
     
     <footer id="contact">
-      <h3>contact</h3>
+      <h3>Contact</h3>
       <form action="">
         <br>
         <label for="name" required>Name: </label>
@@ -69,6 +79,7 @@
       </form>
 
     </footer>
-    <script src="./links.js"></script>
+    <script src="./links.js" async defer></script>
+    <script src="./index.js" async defer></script>
 </body>
 </html>
