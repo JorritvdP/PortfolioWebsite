@@ -65,6 +65,7 @@
  font-family: 'Roboto', 'Montserrat', 'Nunito', sans-serif;
  background-color: #D6D1B1;
  margin: 0;
+ box-sizing: border-box;
 }
 
 header {
@@ -296,6 +297,54 @@ footer h3 {
 
 footer form {
     background-color: #C7EFCF;
+    font-family: inherit;
+    font-size: 26px;
+}
+
+input {
+    margin: 10px 10px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #C7EFCF;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+textarea {
+    margin: 10px 10px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #C7EFCF;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.submitbutton {
+    width: 10%;
+}
+
+.submitbutton:hover {
+    background-color: red;
+}
+
+.submitbutton:active {
+    background-color: #32908F;
+}
+
+.textar {
+    background-color: #C7EFCF;
+}
+
+.textar * {
+    vertical-align: middle;
+    background-color: #C7EFCF;
+}
+
+.normal {
+    background-color: #C7EFCF;
+    margin-right: 40px;
 }
 
 #whatsapp {

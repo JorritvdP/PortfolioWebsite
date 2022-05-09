@@ -68,16 +68,18 @@
       <h3>Contact</h3>
       <form action="">
         <br>
-        <label for="name" required>Name: </label>
+        <label class="normal" for="name" required>Name: </label>
         <input type="text" id="name" name="name" placeholder="Firstname Lastname">
         <br>
-        <label for="email" required>Email: </label>
+        <label class="normal" for="email" required>Email: </label>
         <input type="text" id="email" name="email" placeholder="example@mailaddress.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         <br>
-        <label for="message" required>Message: </label>
+        <div class="textar">
+        <label class="area" for="message" required>Message: </label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
         <br>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" class="submitbutton">
       </form>
 
       <div class="contact">
@@ -89,7 +91,6 @@
 
     </footer>
     <script src="./links.js" async defer></script>
-    <script src="./index.js" async defer></script>
     <script src="./index.js" async defer></script>
 </body>
 </html>
