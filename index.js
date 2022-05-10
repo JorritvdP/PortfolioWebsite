@@ -1,4 +1,16 @@
 // JS part of website
+// Dropdown menu Nav bar
+
+/*function dropDown() {
+    let x = document.getElementById("nav");
+    if(x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+*/
+
 //Slider for photos
 let slideIndex = 1;
 

@@ -11,12 +11,17 @@
 <body>
     <header>
       <h1>Jorrit van der Plaats</h1>
-      <nav>
-        <ul class="navbar" role="presentation">
-          <li><a href="#about">About me | </a></li>
-          <li><a href="#work">Projects | </a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <nav class="navbar" id="nav">
+          <a href="#about">About me | </a>
+          <div class="dropdown">
+          <a class="dropbtn">Projects |</a>
+            <div class="dropdown-content">
+              <a href="https://github.com/JorritvdP/Mixed-Messages">Mixed Messages</a>
+              <a href="https://movimientodelnorte.com">Movimiento del Norte</a></li>
+              <a href="">Another project</a>
+            </div>
+          </div>
+          <a href="#contact">Contact</a>
       </nav>
     </header>
 
