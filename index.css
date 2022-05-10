@@ -328,6 +328,10 @@ footer {
     border-radius: 15px;
 }
 
+.foot {
+    background-color: #C7EFCF; 
+}
+
 footer h2 {
     justify-content: center;
     background-color: #C7EFCF;
@@ -401,6 +405,7 @@ textarea {
     list-style: none;
     text-align: center;
     background-color: #C7EFCF;
+    border-top: 3px solid black;
 }
 
 .contactOptions ul {
@@ -416,7 +421,7 @@ textarea {
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
 }
 
-.contact * {
+#contact * {
     background-color: #C7EFCF;
     margin-top: 15px;
 }
