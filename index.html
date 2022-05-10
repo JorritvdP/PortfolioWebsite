@@ -11,12 +11,17 @@
 <body>
     <header>
       <h1>Jorrit van der Plaats</h1>
-      <nav>
-        <ul class="navbar" role="presentation">
-          <li><a href="#about">About me | </a></li>
-          <li><a href="#work">Projects | </a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <nav class="navbar" id="nav">
+          <a href="#about">About me | </a>
+          <div class="dropdown">
+          <a class="dropbtn">Projects |</a>
+            <div class="dropdown-content">
+              <a href="https://github.com/JorritvdP/Mixed-Messages">Mixed Messages</a>
+              <a href="https://movimientodelnorte.com">Movimiento del Norte</a></li>
+              <a href="">Another project</a>
+            </div>
+          </div>
+          <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -64,8 +69,9 @@
         </div>
     </main>
     
-    <footer id="contact">
+    <footer>
       <h2>Contact</h2>
+      <div class="foot">
       <form action="">
         <br>
         <label class="normal" for="name" required>Name: </label>
@@ -82,13 +88,14 @@
         <input type="submit" value="Send" class="submitbutton">
       </form>
 
-      <div class="contact">
+      <div id="contact">
         <ul class="contactOptions">
           <li><a href="https://www.linkedin.com/in/jorrit-van-der-plaats-6a1a30b/"><img src="./Linkedin.png" alt=""></a></li>
           <li id="whatsapp"><a href="https://www.whatsapp.com/"><img src="./Whatsapp.png" alt="">+34 643 28 68 57</a></li>
           <li><a href="https://www.instagram.com/movimientodelnorte_madrid/"><img src="./Instagram.png" alt=""> </a></li>
         </ul>
       </div>
+    </div>
 
     </footer>
     <script src="./links.js" async defer></script>
